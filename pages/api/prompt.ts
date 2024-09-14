@@ -11,7 +11,7 @@ export default async function handler(
 ) {
   //check if the request is coming from localhost or zjierb.com
   console.log(req.headers.host);
-  if (req.headers.host === "localhost:3000" || req.headers.host === "Request is coming from zjierb.com") {
+  if (req.headers.host === "localhost:3000" || req.headers.host === "zjierb.com") {
     console.log("Request is coming from a known source");
   } else {
     console.log("Request is coming from an unknown source");
