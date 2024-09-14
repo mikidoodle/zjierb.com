@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  let [response, setResponse] = useState<any>(null);
+  const [response, setResponse] = useState<string | null>(null);
   useEffect(() => {
     
 
@@ -43,7 +43,7 @@ export default function Home() {
                 color: "black",
               }}
             >
-              code
+              yee
             </a>
           </div>
             
