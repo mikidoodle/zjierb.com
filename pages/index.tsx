@@ -1,11 +1,9 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import OpenAI from "openai";
-import { Html } from "next/document";
 
 export default function Home() {
   let [response, setResponse] = useState<any>(null);
-  /*useEffect(() => {
+  useEffect(() => {
     
 
     fetch("/api/prompt")
@@ -17,7 +15,7 @@ export default function Home() {
         console.error(err);
         alert("something be wrong. pls refroosh");
       });
-  }, []);*/
+  }, []);
   return (
     <>
       <Head>
